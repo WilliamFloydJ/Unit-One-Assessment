@@ -22,7 +22,7 @@ const numbers = [1, 2, 3, 4, 5]
 //CODE HERE
 
 var middleNums = numbers.slice(1,numbers.length-1)
-console.log(middleNums)
+
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -37,7 +37,7 @@ console.log(middleNums)
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 var answers = []
 // CODE HERE
-for(let x in bigOrSmallArray){
+for(let x of bigOrSmallArray){
   if(x > 100){
       answers.push('big')
   }
@@ -45,3 +45,4 @@ for(let x in bigOrSmallArray){
     answers.push('small')
   }
 }
+console.log(answers)
